@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name{
+           text-align: center;
+            color: red;
+        }
+        .resume{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <script>
+        const h1 = document.createElement("h1");
+        h1.innerText = "RESUME";
+        h1.className="resume"
+
+
+        const h2_1 = document.createElement("h2");
+        h2_1.innerText = "SANJEEVAPPA GARI NARESH";
+        h2_1.className="name"
+        
+
+        const h2_2 = document.createElement("h2");
+        h2_2.innerText = "9703328790";
+        h2_2.className="name"
+       
+
+
+        const p = document.createElement("p");
+        p.innerText = "Naresh732003@gmail.com && LinkedIn";
+        p.className="name"
+
+        
+        var feed=document.createElement('fieldset')
+        
+        var leegend=document.createElement("legend");
+        const h2_3=document.createElement("h2")
+        h2_3.innerText="Carrer objective"
+        leegend.append(h2_3)
+        var h2_c=document.createElement("h2")
+        h2_c.innerText="Motivated IT graduate with a strong foundation in software development, seeking to start my career at InfosysEager to contribute to innovative projects and grow within a dynamic team"
+        feed.append(leegend,h2_c);
+      
+        var ul1=document.createElement("ul");
+        var h2_s=document.createElement("h2")
+      h2_s.innerText="Skills"
+var uli1=document.createElement("li");
+uli1.innerText="Javascript";
+var uli2=document.createElement("li");
+uli2.innerText="css";
+var uli3=document.createElement("li");
+uli3.innerText="HTML";
+var uli4=document.createElement("li");
+uli4.innerText="React";
+
+ul1.append(h2_s,uli1,uli2,uli3,uli4);
+ul1.style.display="inline-block"
+
+
+var ul2=document.createElement("ul");
+        var h2_s2=document.createElement("h2")
+      h2_s2.innerText="Language"
+var li2=document.createElement("li");
+li2.innerText="Telugu";
+var li3=document.createElement("li");
+li3.innerText="KAnnada";
+var li4=document.createElement("li");
+li4.innerText="English";
+var li1=document.createElement("li");
+li1.innerText="Tamil";
+ul2.append(h2_s2,li2,li3,li4,li1);
+
+ul2.style.display="inline-block"
+var dec=document.createElement("h2")
+dec.innerText="Decleration"
+var p2=document.createElement("p")
+p2.innerText="I hereby declare that the details mentioned above are true to the best of my knowledge."
+p2.style.fontSize=("25px")
+
+
+        
+
+
+
+        // document.body.appendChild(h1);
+        // document.body.appendChild(h2_1);
+        // document.body.appendChild(h2_2);
+        // document.body.appendChild(p);
+        document.body.append(h1, h2_1, h2_2, p,feed,ul1,ul2,dec,p2);
+
+    </script>
+</body>
+</html>

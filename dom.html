@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+        display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  
+
+
+  <script>
+var h1cre=document.createElement("h1");
+h1cre.style.textAlign="center"
+var nodetext=document.createTextNode("chaitanya");
+
+h1cre.appendChild(nodetext);
+
+var img=document.createElement("img");
+
+img.src="https://th.bing.com/th/id/OIP.jHVOWwSFJmKm4WYjoOIS0QHaFk?w=257&h=193&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+img.width="100";
+img.style.float="right";
+
+img.style.marginTop="-95px";
+var hrcre=document.createElement(
+  "hr"
+);
+h1cre.style.marginBottom="50px";
+var ulcre=document.createElement("ul");
+var li1=document.createElement("li");
+li1.innerText="Javascript";
+var li2=document.createElement("li");
+li2.innerText="css";
+var li3=document.createElement("li");
+li3.innerText="HTML";
+var li4=document.createElement("li");
+li4.innerText="React";
+ulcre.style.display="inline-block"
+ulcre.append(li1,li2,li3,li4);
+
+
+var ul1=document.createElement("ul");
+var uli1=document.createElement("li");
+uli1.innerText="Javascript";
+var uli2=document.createElement("li");
+uli2.innerText="css";
+var uli3=document.createElement("li");
+uli3.innerText="HTML";
+var uli4=document.createElement("li");
+uli4.innerText="React";
+ul1.append(uli1,uli2,uli3,uli4);
+
+ul1.style.display="inline-block"
+
+
+
+document.body.append(h1cre,img,hrcre,ulcre,ul1);
+
+
+
+
+  </script>
+</body>
+</html>
